@@ -1,9 +1,9 @@
 :root {
-  --bg: #000000;
-  --surface: #11151a;
-  --card: #141a21;
+  --bg: #ffffff;
+  --surface: #ffffff;
+  --card: #ffffff;
   --muted: #9aa4b2;
-  --text: #e5eef7;
+  --text: #000000;
   --accent: #59ffa1; /* neon mint */
   --accent-2: #7cc8ff; /* ice blue */
   --danger: #ff6b6b;
