@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hanger12Customs · Portfolio</title>
+  <meta name="description" content="Showcase of custom automotive mods and 3D prints by Hanger12Customs. Prices shown for reference only; not a store." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="nav">
+      <div class="brand">
+        <img src="images/logo.png" alt="Hanger12Customs Logo" class="logo">
+        <h1>Hanger12Customs</h1>
+      </div>
+      <nav aria-label="Primary">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" aria-label="Intro">
+    <div class="hero-card">
+      <div class="hero-media">
+        <!-- Replace with your best hero image -->
+        <img src="images/hero-hhc.jpg" alt="Selection of custom parts by Hanger12Customs" />
+      </div>
+      <div class="hero-body">
+        <p class="tagline">Custom Mods · 3D Prints · Fabrication</p>
+        <h2 class="title-xl">Precision-built, road-tested.</h2>
+        <p>Showcase of parts, prototypes, and one-off builds. Prices are shown for reference — this is not a store page.</p>
+        <div class="badges">
+          <span class="badge">Automotive</span>
+          <span class="badge">3D Printing</span>
+          <span class="badge">Design & Fitment</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-card">
+      <div class="hero-body">
+        <h3 class="title" style="font-family: Rajdhani, Inter, sans-serif; font-size:1.25rem">Quick Notes</h3>
+        <ul class="meta" style="margin:0 0 4px 18px; padding:0; display:grid; gap:8px;">
+          <li>Want one of these? <strong>DM or email</strong> — builds are limited and made-to-order.</li>
+          <li>Most parts are printed in <strong>ASA / ASA‑CF</strong> for heat + UV resistance.</li>
+          <li>Fitment notes are listed per item; some require light trimming or install guides.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery + Filters -->
+  <section id="work" class="section" aria-label="Work">
+    <h2>Featured Work</h2>
+
+    <div class="tabs" role="tablist" aria-label="Filter projects by category">
+      <input type="radio" name="tab" id="tab-all" checked>
+      <label for="tab-all" role="tab" aria-controls="panel-all">All</label>
+
+      <input type="radio" name="tab" id="tab-car">
+      <label for="tab-car" role="tab" aria-controls="panel-car">Car Parts</label>
+
+      <input type="radio" name="tab" id="tab-print">
+      <label for="tab-print" role="tab" aria-controls="panel-print">3D Prints</label>
+
+      <input type="radio" name="tab" id="tab-acc">
+      <label for="tab-acc" role="tab" aria-controls="panel-acc">Accessories</label>
+
+      <input type="radio" name="tab" id="tab-elec">
+      <label for="tab-elec" role="tab" aria-controls="panel-elec">Electronics</label>
+    </div>
+
+    <div class="gallery" id="panel-all">
+      <!-- CARD TEMPLATE (copy to add more)
+      <article class="card" data-cat="car print">
+        <a href="#img-UNIQUE" class="media" aria-label="Open larger image">
+          <span class="not-for-sale" aria-hidden="true">Showcase</span>
+          <span class="price">$123</span>
+          <img src="images/REPLACE.jpg" alt="Short alt describing the item" />
+        </a>
+        <div class="body">
+          <h3 class="title">Item Name</h3>
+          <p class="meta">1–2 line description. Materials, fitment notes, etc.</p>
+          <div class="chips">
+            <span class="chip">ASA‑CF</span>
+            <span class="chip">HHR SS</span>
+            <span class="chip">Prototype v1.2</span>
+          </div>
+        </div>
+      </article>
+      <div id="img-UNIQUE" class="lightbox">
+        <a class="close" href="#work" aria-label="Close"></a>
+        <img src="images/REPLACE.jpg" alt="Large view of Item Name" />
+      </div>
+      -->
+
+      <!-- Example cards (replace images + details) -->
+      <article class="card" data-cat="car print">
+        <a href="#img-vent" class="media" aria-label="Open larger image: HHR SS Vent Insert">
+          <span class="not-for-sale" aria-hidden="true">Showcase</span>
+          <span class="price">$25</span>
+          <img src="images/hhr-vent-insert.jpg" alt="Custom HHR SS air vent insert installed in dash" />
+        </a>
+        <div class="body">
+          <h3 class="title">HHR SS Vent Insert (V2)</h3>
+          <p class="meta">3D printed insert tuned to survive Florida cabin temps. Revised airflow geometry to prevent spatter at the spoke.</p>
+          <div class="chips">
+            <span class="chip">ASA‑CF</span>
+            <span class="chip">Heat‑resistant</span>
+            <span class="chip">Dash fitment</span>
+          </div>
+        </div>
+      </article>
+      <div id="img-vent" class="lightbox">
+        <a class="close" href="#work" aria-label="Close"></a>
+        <img src="images/hhr-vent-insert.jpg" alt="Large view of HHR SS Vent Insert V2" />
+      </div>
+
+      <article class="card" data-cat="car print">
+        <a href="#img-airbox" class="media" aria-label="Open larger image: HHR SS Airbox Mod Kit">
+          <span class="not-for-sale" aria-hidden="true">Showcase</span>
+          <span class="price">$80</span>
+          <img src="images/hhr-airbox-kit.jpg" alt="Airbox cutout guide and internal attachment for HHR SS" />
+        </a>
+        <div class="body">
+          <h3 class="title">HHR SS Airbox Mod Kit</h3>
+          <p class="meta">Cutout guide + internal coupler to connect guide tube. Budget-friendly intake upgrade; includes printable template.</p>
+          <div class="chips">
+            <span class="chip">Template</span>
+            <span class="chip">DIY</span>
+            <span class="chip">HHR SS</span>
+          </div>
+        </div>
+      </article>
+      <div id="img-airbox" class="lightbox">
+        <a class="close" href="#work" aria-label="Close"></a>
+        <img src="images/hhr-airbox-kit.jpg" alt="Large view of HHR SS Airbox Mod Kit" />
+      </div>
+
+      <article class="card" data-cat="print accessory">
+        <a href="#img-phone" class="media" aria-label="Open larger image: HHR Phone Slot Mount">
+          <span class="not-for-sale" aria-hidden="true">Showcase</span>
+          <span class="price">$18</span>
+          <img src="images/hhr-phone-slot.jpg" alt="Low-profile phone slot resting mount for HHR dashboard" />
+        </a>
+        <div class="body">
+          <h3 class="title">Phone Slot Dash Mount</h3>
+          <p class="meta">Simple, low-profile resting slot. Color options available; not a clamp — designed to be a clean parking spot.</p>
+          <div class="chips">
+            <span class="chip">Color options</span>
+            <span class="chip">Easy install</span>
+          </div>
+        </div>
+      </article>
+      <div id="img-phone" class="lightbox">
+        <a class="close" href="#work" aria-label="Close"></a>
+        <img src="images/hhr-phone-slot.jpg" alt="Large view of Phone Slot Dash Mount" />
+      </div>
+
+      <article class="card" data-cat="car print">
+        <a href="#img-spoiler" class="media" aria-label="Open larger image: ASA‑CF Spoiler">
+          <span class="not-for-sale" aria-hidden="true">Showcase</span>
+          <span class="price">$120</span>
+          <img src="images/asa-cf-spoiler.jpg" alt="3D printed ASA‑CF spoiler for highway speeds" />
+        </a>
+        <div class="body">
+          <h3 class="title">ASA‑CF Spoiler (Highway‑ready)</h3>
+          <p class="meta">Reinforced walls + smart infill for rigidity at speed. Tuned for heat, UV, and sustained load.</p>
+          <div class="chips">
+            <span class="chip">Structural</span>
+            <span class="chip">Aero</span>
+            <span class="chip">Prototype</span>
+          </div>
+        </div>
+      </article>
+      <div id="img-spoiler" class="lightbox">
+        <a class="close" href="#work" aria-label="Close"></a>
+        <img src="images/asa-cf-spoiler.jpg" alt="Large view of ASA‑CF Spoiler" />
+      </div>
+
+      <article class="card" data-cat="car">
+        <a href="#img-mesh" class="media" aria-label="Open larger image: Frogzskin Mesh Panel">
+          <span class="not-for-sale" aria-hidden="true">Showcase</span>
+          <span class="price">$35</span>
+          <img src="images/frogzskin-panel.jpg" alt="Frogzskin mesh intake panel taped to frame" />
+        </a>
+        <div class="body">
+          <h3 class="title">Frogzskin Mesh Intake Panel</h3>
+          <p class="meta">Cut-to-fit mesh with 5 mm tape interface. Keeps debris out while maintaining flow.</p>
+          <div class="chips">
+            <span class="chip">5 mm tape</span>
+            <span class="chip">Serviceable</span>
+          </div>
+        </div>
+      </article>
+      <div id="img-mesh" class="lightbox">
+        <a class="close" href="#work" aria-label="Close"></a>
+        <img src="images/frogzskin-panel.jpg" alt="Large view of Frogzskin Mesh Intake Panel" />
+      </div>
+
+      <article class="card" data-cat="electronics accessory">
+        <a href="#img-hud" class="media" aria-label="Open larger image: Snow Goggle HUD Prototype">
+          <span class="not-for-sale" aria-hidden="true">Showcase</span>
+          <span class="price">$—</span>
+          <img src="images/snow-hud.jpg" alt="Mini OLED HUD projected onto snow goggle lens" />
+        </a>
+        <div class="body">
+          <h3 class="title">Snow Goggle HUD Prototype</h3>
+          <p class="meta">Reflective micro‑OLED with GPS speed + temp readouts. Designed for winter sports and MTB.</p>
+          <div class="chips">
+            <span class="chip">Micro‑OLED</span>
+            <span class="chip">GPS</span>
+            <span class="chip">Prototype</span>
+          </div>
+        </div>
+      </article>
+      <div id="img-hud" class="lightbox">
+        <a class="close" href="#work" aria-label="Close"></a>
+        <img src="images/snow-hud.jpg" alt="Large view of Snow Goggle HUD Prototype" />
+      </div>
+
+    </div>
+  </section>
+
+  <!-- About + Contact -->
+  <section id="about" class="section" aria-label="About">
+    <div class="two-col">
+      <div class="panel">
+        <h3>About Hanger12Customs</h3>
+        <p>Built in the garage, refined on the road. I design and fabricate practical parts for daily drivers and weekend projects — with a focus on clean fitment, durability, and straightforward installs.</p>
+        <p class="tiny">Materials I use most: ASA / ASA‑CF · PETG · TPU · Aluminum hardware · OEM‑friendly adhesives.</p>
+      </div>
+      <div class="panel" id="contact" aria-label="Contact">
+        <h3>Contact</h3>
+        <ul class="contact-list">
+          <li><a href="mailto:hanger12customs@example.com" aria-label="Email Hanger12Customs">Email</a></li>
+          <li><a href="https://instagram.com/yourhandle" target="_blank" rel="noreferrer noopener">Instagram</a></li>
+          <li><a href="https://www.facebook.com/yourpage" target="_blank" rel="noreferrer noopener">Facebook</a></li>
+        </ul>
+        <p class="tiny" style="margin-top:10px;">Want an item here? Message me with the title — availability and lead times vary. Prices shown are reference only.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <span class="tiny">© <span id="year"></span> Hanger12Customs · Showcase only · Not a store</span>
+    <span class="tiny">Site by Hanger12Customs</span>
+  </footer>
+
+  <script>
+    // Set year in footer without requiring any frameworks
+    document.getElementById('year').textContent = new Date().getFullYear();
+    // Tabs: basic accessibility – ensure focus outline on label clicks
+    document.querySelectorAll('.tabs label').forEach(l => l.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        const forId = l.getAttribute('for');
+        document.getElementById(forId).checked = true;
+      }
+    }));
+  </script>
+</body>
+</html>
